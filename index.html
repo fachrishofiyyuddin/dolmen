@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Administrasi Sistem Jaringan</title>
+
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AlpineJS -->
+    <script src="https://unpkg.com/alpinejs" defer></script>
+
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-[#ecfdf5] to-[#d1fae5] text-gray-800 transition-all duration-1000 ease-in-out"
+  >
+    <!-- Navbar -->
+    <nav
+      class="bg-white/70 backdrop-blur shadow sticky top-0 z-50 transition"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-3">
+          <img
+            src="https://img.icons8.com/color/48/networking-manager.png"
+            alt="ASJ Icon"
+            class="w-10 h-10 animate-pulse"
+          />
+          <h1 class="text-xl font-bold text-green-700">
+            Adm. Sistem Jaringan
+          </h1>
+        </div>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="#materi" class="hover:text-green-600 transition">Materi</a></li>
+          <li><a href="#quiz" class="hover:text-green-600 transition">Quiz</a></li>
+          <li><a href="#video" class="hover:text-green-600 transition">Video</a></li>
+          <li><a href="#tugas" class="hover:text-green-600 transition">Tugas</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+    class="py-20 text-center bg-[#d1fae5] bg-cover bg-center bg-no-repeat"
+    style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1470&q=80');"
+    data-aos="zoom-in"
+    >
+    <div class="max-w-4xl mx-auto px-4 bg-white/70 backdrop-blur-md rounded-xl p-8">
+        <h2
+        class="text-5xl font-extrabold text-green-800 leading-snug"
+        >
+        Selamat Datang di Dunia Seru<br />
+        Administrasi Sistem Jaringan
+        </h2>
+        <p class="mt-6 text-lg text-gray-700">
+        Belajar materi hosting, FTP, GitHub Pages, dan lainnya dengan mudah
+        dan menyenangkan!
+        </p>
+        <a
+        href="#materi"
+        class="mt-8 inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-3 rounded-xl shadow-xl transition transform hover:scale-105"
+        >Mulai Belajar 🌱</a
+        >
+    </div>
+    </section>
+
+
+    <!-- Materi Section -->
+    <section id="materi" class="py-16 bg-white" data-aos="fade-up">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3
+          class="text-3xl font-bold text-center text-green-700 mb-12"
+        >
+          📚 Materi Pembelajaran
+        </h3>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+         <div
+  class="bg-[#f0fdf4] border-l-4 border-green-500 rounded-xl p-6 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 cursor-pointer"
+  data-aos="fade-right"
+>
+  <h4 class="text-xl font-semibold text-green-800 flex items-center mb-3">
+    <img src="https://img.icons8.com/ios-filled/24/cloud.png" class="mr-2" />
+    1. Pengantar Hosting
+  </h4>
+  <p class="text-sm text-gray-600 mb-6 leading-relaxed">
+    Apa itu domain dan hosting? Yuk kenalan dulu dengan dunia web hosting!
+  </p>
+  <ul class="text-sm text-green-700 font-semibold space-y-2">
+  <li>
+    <a
+      href="https://www.canva.com/design/DAGbyyEH4SU/oxj9ky_MameCxbtD86a4Iw/edit?utm_content=DAGbyyEH4SU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      target="_blank"
+      class="inline-flex items-center px-3 py-1 rounded-md bg-green-100 hover:bg-green-200 text-green-800 transition"
+    >
+      Materi Canva 1: Dasar Hosting dan Domain
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="ml-2 h-4 w-4"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M18 13v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h6m5-3h5v5m-1-5L10 14"
+        />
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://www.canva.com/design/DAGcJG1UDgM/qXY0N9F8Rpws3HZvE8iiAA/edit?utm_content=DAGcJG1UDgM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      target="_blank"
+      class="inline-flex items-center px-3 py-1 rounded-md bg-green-100 hover:bg-green-200 text-green-800 transition"
+    >
+      Materi Canva 2: Tahapan Menggunakan Hosting
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="ml-2 h-4 w-4"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M18 13v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h6m5-3h5v5m-1-5L10 14"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+
+</div>
+
+
+          <div
+  class="bg-[#f0fdf4] border-l-4 border-lime-500 rounded-xl p-6 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 cursor-pointer"
+  data-aos="fade-up"
+>
+  <h4 class="text-xl font-semibold text-lime-800 flex items-center mb-2">
+    <img src="https://img.icons8.com/ios-filled/24/ftp.png" class="mr-2" />
+    2. FTP & Upload Website
+  </h4>
+  <p class="text-sm text-gray-600 mt-2">
+    Belajar menggunakan FileZilla untuk upload website kamu ke internet.
+  </p>
+  <p
+  class="mt-4 inline-flex items-center text-emerald-700 bg-emerald-100 px-4 py-2 rounded-lg font-semibold select-none"
+>
+  Segera Hadir
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="ml-2 h-5 w-5"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    stroke-width="2"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+    />
+  </svg>
+</p>
+
+</div>
+
+<div
+  class="bg-[#f0fdf4] border-l-4 border-emerald-500 rounded-xl p-6 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 cursor-pointer"
+  data-aos="fade-left"
+>
+  <h4 class="text-xl font-semibold text-emerald-800 flex items-center mb-2">
+    <img src="https://img.icons8.com/ios-filled/24/github.png" class="mr-2" />
+    3. GitHub Pages
+  </h4>
+  <p class="text-sm text-gray-600 mt-2">
+    Bikin website keren & gratis langsung dari GitHub kamu sendiri!
+  </p>
+  <p
+  class="mt-4 inline-flex items-center text-emerald-700 bg-emerald-100 px-4 py-2 rounded-lg font-semibold select-none"
+>
+  Segera Hadir
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="ml-2 h-5 w-5"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    stroke-width="2"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+    />
+  </svg>
+</p>
+
+</div>
+
+    </section>
+
+    <!-- Quiz Section -->
+    <section
+      id="quiz"
+      class="py-16 bg-green-50"
+      data-aos="fade-up"
+      x-data="quizApp()"
+    >
+      <div class="max-w-3xl mx-auto px-4 text-center">
+  <h3 class="text-3xl font-bold text-green-700 mb-8">
+    📝 Quiz Singkat: Pengantar Hosting
+  </h3>
+
+  <!-- Pilihan jenis quiz -->
+  <div class="flex flex-col gap-4 mb-10">
+    <a
+      href="https://forms.gle/UQ5vqargPa7ivctv9"
+      target="_blank"
+      class="inline-block bg-white border border-green-500 text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-green-100 transition"
+    >
+      🧾 Quiz via Google Form
+    </a>
+    <p class="text-gray-500 text-sm italic">Atau coba langsung jawab quiz interaktif di bawah ini ⬇️</p>
+  </div>
+
+  <!-- Quiz interaktif -->
+  <template x-if="!quizFinished">
+    <div>
+      <p class="mb-6 font-semibold text-lg" x-text="questions[current].question"></p>
+
+      <template x-for="(option, index) in questions[current].options" :key="index">
+        <label
+          :class="{
+            'bg-green-100 border-green-400': userAnswerIndex === index,
+            'hover:bg-green-50': userAnswerIndex !== index
+          }"
+          class="block mb-3 cursor-pointer rounded-md border border-green-300 p-3 transition"
+        >
+          <input
+            type="radio"
+            :value="index"
+            x-model.number="userAnswerIndex"
+            name="option"
+            class="mr-3"
+          />
+          <span x-text="option"></span>
+        </label>
+      </template>
+
+      <button
+        @click="submitAnswer()"
+        class="mt-4 bg-green-600 text-white px-8 py-2 rounded-lg hover:bg-green-700 transition disabled:opacity-50"
+        :disabled="userAnswerIndex === null"
+      >
+        Jawab
+      </button>
+    </div>
+  </template>
+
+  <!-- Result -->
+  <template x-if="quizFinished">
+    <div class="space-y-4">
+      <p class="text-xl font-bold mb-2">
+        Skor kamu: <span x-text="score"></span> dari
+        <span x-text="questions.length"></span> (<span x-text="percentage"></span>%)
+      </p>
+      <p
+        x-text="resultMessage"
+        :class="{
+          'text-green-600': percentage >= 80,
+          'text-red-600': percentage < 80
+        }"
+        class="text-lg font-semibold"
+      ></p>
+      <button
+        @click="restartQuiz()"
+        class="bg-lime-600 text-white px-8 py-2 rounded-lg hover:bg-lime-700 transition"
+      >
+        Ulangi Quiz
+      </button>
+    </div>
+  </template>
+</div>
+
+
+      <script>
+        function quizApp() {
+          return {
+            questions: [
+              {
+                question: "Apa itu hosting?",
+                options: [
+                  "Tempat menyimpan website",
+                  "Bahasa pemrograman",
+                  "Sistem operasi",
+                  "Jenis domain",
+                ],
+                answerIndex: 0,
+              },
+              {
+                question: "Apa fungsi FTP?",
+                options: [
+                  "Mengupload file ke server",
+                  "Mendownload video",
+                  "Mengirim email",
+                  "Membuat database",
+                ],
+                answerIndex: 0,
+              },
+              {
+                question: "GitHub Pages digunakan untuk?",
+                options: [
+                  "Membuat website statis gratis",
+                  "Mengelola database",
+                  "Menulis kode program desktop",
+                  "Membuat game",
+                ],
+                answerIndex: 0,
+              },
+              {
+                question: "Domain itu adalah?",
+                options: [
+                  "Alamat website",
+                  "Jenis server",
+                  "Bahasa pemrograman",
+                  "Sistem operasi",
+                ],
+                answerIndex: 0,
+              },
+              {
+                question: "Apa fungsi utama dari FTP?",
+                options: [
+                  "Transfer file antar komputer",
+                  "Memprogram website",
+                  "Mengelola database",
+                  "Membuat grafik",
+                ],
+                answerIndex: 0,
+              },
+            ],
+            current: 0,
+            userAnswerIndex: null,
+            score: 0,
+            quizFinished: false,
+            get percentage() {
+              return Math.round((this.score / this.questions.length) * 100);
+            },
+            get resultMessage() {
+              if (this.percentage === 100) {
+                return "Selamat! Kamu hebat! 🎉";
+              } else if (this.percentage >= 80) {
+                return "Hebat! Kamu lulus dengan nilai bagus 🎉";
+              } else {
+                return "Yuk coba lagi, jangan menyerah! 💪";
+              }
+            },
+            submitAnswer() {
+              if (this.userAnswerIndex === this.questions[this.current].answerIndex) {
+                this.score++;
+              }
+              this.userAnswerIndex = null;
+              this.current++;
+              if (this.current >= this.questions.length) {
+                this.quizFinished = true;
+              }
+            },
+            restartQuiz() {
+              this.current = 0;
+              this.score = 0;
+              this.quizFinished = false;
+              this.userAnswerIndex = null;
+            },
+          };
+        }
+      </script>
+    </section>
+
+    <!-- Video Section -->
+    <section
+      id="video"
+      class="bg-[#ecfdf5] py-16"
+      data-aos="fade-up"
+    >
+      <div class="max-w-6xl mx-auto px-4">
+        <h3
+          class="text-3xl font-bold text-center text-green-700 mb-10"
+        >
+          🎥 Video Pembelajaran
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div data-aos="zoom-in">
+    <iframe
+      class="w-full rounded-xl shadow-xl"
+      src="https://www.youtube.com/embed/4oo6K-Ensbw?si=M5E_GIU2HX0A7C5i"
+      title="Video Tutorial Hosting"
+      allowfullscreen
+      style="height: 300px;"
+    ></iframe>
+  </div>
+  <div data-aos="zoom-in" data-aos-delay="150">
+    <iframe
+      class="w-full rounded-xl shadow-xl"
+      src="https://www.youtube.com/embed/4oo6K-Ensbw?si=M5E_GIU2HX0A7C5i"
+      title="Video GitHub Pages"
+      allowfullscreen
+      style="height: 300px;"
+    ></iframe>
+  </div>
+</div>
+
+      </div>
+    </section>
+
+    <!-- Tugas Section -->
+    <section
+      id="tugas"
+      class="py-16 bg-white"
+      data-aos="fade-up"
+    >
+      <div class="max-w-5xl mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold text-green-700 mb-8">
+          📝 Tugas Siswa
+        </h3>
+        <p class="mb-4 text-gray-600">
+          Klik link di bawah ini untuk mengumpulkan tugas atau melihat hasil
+          project teman-teman kalian!
+        </p>
+        <div class="space-y-4">
+          <a
+            href="https://forms.gle/EBdYAYwJ6bAU3jaM8"
+            target="_blank"
+            class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition transform hover:scale-105"
+            >📤 Kumpulkan Tugas (Google Form)</a
+          ><br />
+          <a
+            href="https://yourusername.github.io/project-siswa"
+            target="_blank"
+            class="inline-block bg-lime-600 hover:bg-lime-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition transform hover:scale-105"
+            >🌐 Lihat Proyek Siswa (GitHub Pages)</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white py-6 mt-12">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <p class="text-sm">
+          &copy; 2025 Administrasi Sistem Jaringan | SMK NU Al Hidayah
+        </p>
+        <p class="text-xs mt-1 opacity-80">
+          Dibuat dengan ❤️ oleh Fachri Shofiyyuddin Ahmad
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
